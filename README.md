@@ -1,3 +1,3 @@
-## H2 Effective Java Examples
+## Effective Java Examples
 
 just beginning
