@@ -32,9 +32,9 @@ In this case, we have cached users object map and just return them.
 an object of any subtype of their return type
 
 
-The method createUser return a SpecialUser for a first user created
+The method createUser return a SpecialUser in the creation of Masters users
 
 ```Java
-    if(historyOfCreatedUsers.isEmpty())
-            return new SpecialUser(userName);
+    if (userType.equals(UserType.MASTER))
+            return new SpecialUser(userType,userName);
 ```
