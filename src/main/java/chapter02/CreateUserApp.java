@@ -12,12 +12,12 @@ public class CreateUserApp
 
     public void createNewCommonUser(String userName)
     {
-        user = User.createCommonUser(userName);
+        this.user = User.createCommonUser(userName);
     }
 
     public void createMasterUser(String userName)
     {
-        user = User.createMasterUser(userName);
+        this.user = User.createMasterUser(userName);
     }
 
     public String getUserName()
@@ -42,6 +42,6 @@ public class CreateUserApp
 
     public boolean isSpecialUser()
     {
-        return (user instanceof SpecialUser);
+        return (this.user instanceof SpecialUser);
     }
 }
