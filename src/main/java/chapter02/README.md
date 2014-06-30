@@ -1,5 +1,5 @@
-Item 1. Consider static factory methods instead of constructors.
-..* One advantage of static factory methods is that, unlike constructors, they have names.
+Item 1. Consider static factory methods instead of constructors. (page 28)
+* One advantage of static factory methods is that, unlike constructors, they have names.
 
 Ex.
 ```Java
@@ -23,10 +23,9 @@ The User have three static factory method and uses the following logic:
 ```Java
     if (alreadyCreated(userName))
      return historyOfCreatedUsers.get(userName);
-...
+```
 
 In this case, we have cached users object map and just return them.
-
 
 
 * A third advantage of static factory methods is that, unlike constructors, they can return
@@ -36,6 +35,6 @@ an object of any subtype of their return type
 The method createUser return a SpecialUser for a first user created
 
 ```Java
-if(historyOfCreatedUsers.isEmpty())
-        return new SpecialUser(userName);
+    if(historyOfCreatedUsers.isEmpty())
+            return new SpecialUser(userName);
 ```
