@@ -1,3 +1,4 @@
+
 Item 1. Consider static factory methods instead of constructors. (page 28)
 * One advantage of static factory methods is that, unlike constructors, they have names.
 
