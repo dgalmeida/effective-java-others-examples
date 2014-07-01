@@ -49,7 +49,7 @@ public class User
             return historyOfCreatedUsers.get(userName);
 
         if (userType.equals(UserType.MASTER))
-            return new SpecialUser(userType,userName);
+            return new SpecialUser(userType, userName);
 
         return new User(userType, userName);
     }
