@@ -8,8 +8,7 @@ import static org.fest.assertions.Assertions.assertThat;
 public class CreateUserAppTest
 {
 
-   @Test
-    public void create_common_user() throws Exception
+    @Test public void create_common_user() throws Exception
     {
 
         CreateUserApp createUserApp = new CreateUserApp();
@@ -19,8 +18,7 @@ public class CreateUserAppTest
         assertThat(createUserApp.isCommonUser()).isTrue();
     }
 
-   @Test
-    public void create_master_user() throws Exception
+    @Test public void create_master_user() throws Exception
     {
         String SPECIAL_SIGN = "--spc--";
         CreateUserApp createUserApp = new CreateUserApp();
@@ -31,8 +29,7 @@ public class CreateUserAppTest
         assertThat(createUserApp.isSpecialUser()).isTrue();
     }
 
-    @Test
-    public void create_unknown_name_user()
+    @Test public void create_unknown_name_user()
     {
         CreateUserApp createUserApp = new CreateUserApp();
         String emptyString = "";
