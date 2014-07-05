@@ -1,16 +1,16 @@
-package chapter02.spi;
+package chapter02.item1.spi;
 
-public class ToUpperCaseService implements StringServiceProvider
+public class ToLowerCaseService implements StringServiceProvider
 {
     @Override
     public StringService newService()
     {
-        return new StringService(){
+        return new StringService() {
 
             @Override
             public String change(String forPrint)
             {
-                return forPrint.toUpperCase();
+                return forPrint.toLowerCase();
             }
         };
     }

@@ -1,4 +1,4 @@
-package chapter02.spi;
+package chapter02.item1.spi;
 
 import java.util.HashMap;
 import java.util.Map;

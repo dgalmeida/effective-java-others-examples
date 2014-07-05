@@ -1,4 +1,4 @@
-package chapter02.sfm;
+package chapter02.item1.sfm;
 
 
 public class CreateUserApp
