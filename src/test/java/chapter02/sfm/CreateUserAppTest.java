@@ -1,4 +1,4 @@
-package chapter02;
+package chapter02.sfm;
 
 import chapter02.sfm.CreateUserApp;
 import org.junit.Test;
