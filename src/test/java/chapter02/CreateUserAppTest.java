@@ -1,5 +1,6 @@
 package chapter02;
 
+import chapter02.sfm.CreateUserApp;
 import org.junit.Test;
 
 import static org.fest.assertions.Assertions.assertThat;

@@ -1,4 +1,4 @@
-package chapter02;
+package chapter02.sfm;
 
 import com.google.common.base.Strings;
 
