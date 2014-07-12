@@ -1,4 +1,4 @@
-package chapter02.item2;
+package chapter02.item02;
 
 public interface Builder<T>
 {

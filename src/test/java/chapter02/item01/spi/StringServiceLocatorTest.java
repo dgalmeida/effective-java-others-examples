@@ -1,7 +1,12 @@
-package chapter02.item1.spi;
+package chapter02.item01.spi;
 
 import org.junit.Test;
 
+import chapter02.item01.spi.StringService;
+import chapter02.item01.spi.StringServiceLocator;
+import chapter02.item01.spi.StringServiceProvider;
+import chapter02.item01.spi.ToLowerCaseService;
+import chapter02.item01.spi.ToUpperCaseService;
 import static org.fest.assertions.Assertions.assertThat;
 
 

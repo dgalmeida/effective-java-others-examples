@@ -1,4 +1,4 @@
-package chapter02.item1.spi;
+package chapter02.item01.spi;
 
 public class ToUpperCaseService implements StringServiceProvider
 {

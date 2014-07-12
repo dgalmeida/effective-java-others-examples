@@ -2,6 +2,7 @@ package chapter02.item2;
 
 import org.junit.Test;
 
+import chapter02.item02.BookDetails;
 import static org.fest.assertions.Assertions.assertThat;
 
 

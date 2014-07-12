@@ -1,7 +1,8 @@
-package chapter02.item1.sfm;
+package chapter02.item01.sfm;
 
 import org.junit.Test;
 
+import chapter02.item01.sfm.CreateUserApp;
 import static org.fest.assertions.Assertions.assertThat;
 
 
