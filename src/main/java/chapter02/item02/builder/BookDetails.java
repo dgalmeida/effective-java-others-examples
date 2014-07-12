@@ -1,4 +1,4 @@
-package chapter02.item02;
+package chapter02.item02.builder;
 
 
 public class BookDetails
