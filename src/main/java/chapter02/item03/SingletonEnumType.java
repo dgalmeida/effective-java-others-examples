@@ -1,4 +1,4 @@
-package chapter02.item03.enumsingleton;
+package chapter02.item03;
 
 public enum SingletonEnumType
 {

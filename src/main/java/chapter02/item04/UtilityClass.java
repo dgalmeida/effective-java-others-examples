@@ -1,4 +1,4 @@
-package chapter02.item03.nonstantiable;
+package chapter02.item04;
 
 public class UtilityClass
 {
