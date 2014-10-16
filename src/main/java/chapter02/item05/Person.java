@@ -26,7 +26,7 @@ public class Person
 	}
 
 	
-	// INSTED DO THIS:
+	// INSTEAD DO THIS:
 	private static final Date BOOM_START;
 	private static final Date BOOM_END;
 
